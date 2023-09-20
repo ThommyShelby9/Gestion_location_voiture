@@ -1,0 +1,11 @@
+@extends('layout.master')
+
+@section('title', 'Inscription - Gescar Location de véhicules') {{-- titre personnalisé --}}
+
+@section('bg-color', '#1a1549') {{-- couleur d'arrière plan de la page d'accueil --}}
+
+@section('content')
+    <section>
+        @include('includes.registration.register')
+    </section>
+@endsection

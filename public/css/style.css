@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    /*couleur d'arrière plan*/
+    color: #000;
+    /*couleur de texte*/
+}
+
+.welcome-text {
+    font-size: 24px;
+
+}
+
+.jumbotron {
+    color: #fff;
+}
+
+.btn-connexion {
+    background-color: #470046;
+    /* Couleur du bouton Connexion */
+    color: #fff;
+    /* Couleur du texte du bouton Connexion */
+}
+
+.btn-inscription {
+    background-color: #B000B1;
+    /* Couleur du bouton Inscription */
+    color: #fff;
+    /* Couleur du texte du bouton Inscription */
+}
+
+.form-container {
+    background-color: #fff;
+    /* Couleur de fond du formulaire d'inscription */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* interfaces principales */
+
+.navbar {
+    background-color: #A099AB;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 250px;
+    right: 0;
+    width: calc(100% - 250px);
+    padding:15px;
+    
+}
+
+.sidebar-brand img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top:8%
+}
+
+.navbar-brand h3 {
+    color: #fff;
+    margin: 0;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #594D6C;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 8%; 
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a{
+    color: #fff;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+    padding: 10px;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a:focus {
+    width: 250px;
+    font-weight: bold;
+    background-color: #fff; /* Couleur de fond au survol */
+    color: #D762D2;
+    border-radius: 20px 20px;
+    transform: scale(1.1); /* Agrandit le bouton au survol */
+    transform: translateX(5px); /* Déplace le bouton vers la droite au survol */
+}
+
+.main-content {
+    padding: 20px;
+    margin-top: 70px; 
+    margin-left: 250px; /* Largeur du sidebar */
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.btn-car {
+    background-color:#0B022F;
+    color: #fff;
+}
+
+.btn-mark {
+    background-color:#AC64C0;
+    color: #fff;
+}
+
+.btn-model {
+    background-color:#212121;
+    color: #fff;
+}
+
+.btn-cat {
+    background-color:#2D062B;
+    color: #fff;
+}
+
+.custom-thead, .car-thead, .rental-thead {
+    height: 50px;
+}
